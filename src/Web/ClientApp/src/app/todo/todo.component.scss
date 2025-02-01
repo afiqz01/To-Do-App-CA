@@ -1,0 +1,102 @@
+#listOptions {
+  margin-right: 8px;
+}
+
+#todo-items .item-input-control {
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+#todo-items .done-todo {
+  text-decoration: line-through;
+}
+
+#todo-items .todo-item-title {
+  padding-top: 8px;
+}
+
+#todo-items .list-group-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#todo-items .list-group-item .btn-xs {
+  padding: 0;
+}
+
+#todo-items .todo-item-checkbox {
+  padding-top: 8px;
+}
+
+#todo-items .todo-item-commands {
+  padding-top: 4px;
+}
+
+.modal-footer {
+  display: block;
+}
+
+.todo-item-duedate {
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .due-date-display {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #6c757d; /* Grey border color */
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light grey background color */
+    color: #6c757d; /* Grey text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: #6c757d; /* Darker grey on hover */
+      color: #fff; /* White text on hover */
+    }
+  }
+}
+
+/* Custom styles for mat-datepicker */
+::ng-deep .mat-datepicker-content {
+  background-color: #fff !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+::ng-deep .mat-calendar {
+  background-color: #fff !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+::ng-deep .mat-calendar-table-header {
+  background-color: #f1f1f1;
+  border-radius: 8px 8px 0 0;
+}
+
+::ng-deep .mat-calendar-table {
+  border-radius: 0 0 8px 8px;
+}
+
+::ng-deep .mat-calendar-body-cell-content {
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
+
+::ng-deep .mat-calendar-body-selected {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+::ng-deep .mat-calendar-body-today {
+  border: 2px solid #007bff !important;
+}
